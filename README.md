@@ -1,3 +1,12 @@
+# ICONOS FACIL
+
+`Icon` es el componente a usar cuando queremos pintar un icono. Recibe `name` y `size`
+
+`Icon` debe de estar acompañado de `Icons` dado que dentro tiene los vectores dentro `<symbols>` de `<svg>` con `id` igual al `name` que hace referencia `Icon`
+
+
+
+
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
