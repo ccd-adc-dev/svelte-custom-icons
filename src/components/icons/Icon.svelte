@@ -9,10 +9,14 @@
 <script>
 	export let name;
 	export let size = 20;
+	export let colorRelleno = '#000'
+	export let colorLinea = '#000'
+
+	$: console.log(colorRelleno)
 </script>
 
-<svg class="icon" width={size} height={size}>
-	<use xlink:href='#{name}' />
+<svg class="icon" width={size} height={size} >
+	<use xlink:href='#{name}' fill={colorRelleno} stroke={colorLinea}/>
 </svg>
 
 <style>
